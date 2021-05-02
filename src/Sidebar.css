@@ -1,0 +1,91 @@
+.sidebar{
+    background-color: var(--slack-color);
+    border-top: 1px solid #49274b;
+    max-width: 260px;
+    color: white;
+    max-height: 1040px;
+}
+
+.sidebar_header{
+    display: flex;
+    border-bottom: 1px solid #49274b;
+    padding-top: 13px;
+    padding-left: 13px;
+    padding-bottom: 10px;
+}
+
+.sidebar_info{
+    flex: 1;
+}
+
+.addChannel{
+    display:flex;
+}
+
+.addChannel_right{
+    align-items: center;
+    box-shadow: 0 1px 3px #49274b , 0 1px 3px #49274b;
+}
+
+.addChannel_left{
+    padding-right: 10px !important;
+    flex: 0.9;
+}
+
+.addChannel_left:hover{  
+    opacity: 0.9;
+    background-color: #340e36;
+}
+
+.sidebar > hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #49274b;
+}
+
+.sidebar_info > h2{
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.sidebar_info > h3{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.sidebar_info > h3 > .MuiSvgIcon-root{
+    font-size: 15px;
+    margin-top: 1px;
+    margin-right: 2px;
+    color: green;
+}
+
+.sidebar_header > .MuiSvgIcon-root{
+    padding: 8px;
+    color: #49274b;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 999px;
+}
+
+@media only screen and (max-width: 425px) {
+    .addChannel{
+        display:grid;
+        grid-template-columns: 70% 20%;
+        padding-right: 2%;
+    }
+    .addChannel_left{
+        padding-right: 2%;
+    }
+    .addChannel_right{
+        padding-right: 1%;
+    }
+    
+}
+
+
+
+
