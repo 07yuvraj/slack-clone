@@ -1,6 +1,6 @@
 # Slack Clone
 
-<h1>It has following functionalities :</h1>
+- It has following functionalities:
 - It allows User's login through Google Authentication
 - User can chat real-time in various channels.
 - User can add various channels and then chat real-time with different users.
